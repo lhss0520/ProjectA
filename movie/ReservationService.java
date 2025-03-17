@@ -1,8 +1,8 @@
 /**
  * ReservationService 클래스
- * 예약 객체를 생성하고, 예약 내용을 확인하는 기능을 담당합니다.
+ * 예약 객체를 생성하고, 예약 정보를 조회하는 기능을 담당합니다.
  */
-public class ReservationService {
+public class ReservationService { 
     private ReservationRepository reservationRepository;
 
     public ReservationService(ReservationRepository reservationRepository) {
