@@ -20,7 +20,7 @@ public class Main {
         System.out.print("나이를 입력하세요: ");
         int age = Integer.parseInt(scanner.nextLine());
         
-        // 중복 여부 확인
+        // 중복 여부 확인s
         User user = userRepo.findUserById(userId);
         if (user == null) {
             // 신규 사용자이면 저장하고 영화 예약 진행
